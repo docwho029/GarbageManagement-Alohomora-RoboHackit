@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | Alohomora</title>
+
+    <link rel="icon" href="http://localhost:8080/resource/assets/icon.png">
+    <link rel="stylesheet" href="http://localhost:8080/resource/signup/style.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="http://localhost:8080/resource/signup/script.js"></script>
+</head>
+
+<body>
+
+    <div class="card-one card">
+        <div class="title-login">Sign Up.</div>
+        
+        <form action="POST">
+            <input class="cec username" id="username" type="text" name="username" placeholder="username">
+            <input class="cec password" id="password" type="password" name="password" placeholder="password">
+            <div class="cec acc-type">
+                <select id="accs" name="account types">
+                    <option value="resident">Resident</option>
+                    <option value="corporation">Corporation</option>
+                    <option value="manager">Management</option>
+                </select>
+            </div>
+            <div class="button-next submit-button" onclick="submit();">let's go</div>
+        </form>
+
+        <a href='http://localhost:8080/user/login' class="signup-instead button-next" style="margin-top:0.4em;text-decoration:none;width:50%;background: transparent;border:3px solid #470063;color:#470063">Login Instead</a>
+        
+    </div>
+
+    <div class="card-caption card">
+        <div>
+            Keeping things simple,<br>
+            so you can <span id='focus' style="color:#470063;
+            ">focus</span> on what matters
+        </div>
+    </div>
+
+    <div class="card-transparent">
+        One portal. <br>
+        A Waste management system for all.
+    </div>
+
+    <div class="card-logo card"><img src="http://localhost:8080/resource/assets/logobutdark.png" alt=""></div>
+
+    <!-- old -->
+
+    
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+{
+    "Jake": {
+        "password": "Jake123",
+        "type": "manager",
+        "data": {
+            "myEntries": [],
+            "assignedEntries": []
+        }
+    },
+    "Tim": {
+        "password": "Tim123",
+        "type": "resident",
+        "data": {
+            "myEntries": [
+                {
+                    "title": "Banana Peels",
+                    "id": 1,
+                    "location": "10, Prusci Street",
+                    "type": "Biodegradable",
+                    "weight": 15,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Plastic bags",
+                    "id": 2,
+                    "location": "10, Prusci Street",
+                    "type": "Non-biodegradable",
+                    "weight": 45,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                },
+                {
+                    "title": "Pumpkin seeds",
+                    "id": 3,
+                    "location": "10, Prusci Street",
+                    "type": "Biodegradable",
+                    "weight": 20,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Banana",
+                    "id": 11,
+                    "location": "My house",
+                    "type": "Biodegradable",
+                    "weight": 2,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                }
+            ],
+            "assignedEntries": []
+        }
+    },
+    "Lomov": {
+        "password": "Lomov123",
+        "type": "resident",
+        "data": {
+            "myEntries": [
+                {
+                    "title": "Shredded Paper",
+                    "id": 6,
+                    "location": "23, Chekovsky Street",
+                    "type": "Biodegradable",
+                    "weight": 30,
+                    "date": "23-9-2022",
+                    "applicant": "Lomov",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": false
+                },
+                {
+                    "title": "Wood Shavings",
+                    "id": 7,
+                    "location": "23, Chekovsky Street",
+                    "type": "Biodegradable",
+                    "weight": 70,
+                    "date": "23-9-2022",
+                    "applicant": "Lomov",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Ash",
+                    "id": 8,
+                    "location": "23, Chekovsky Street",
+                    "type": "Biodegradable",
+                    "weight": 15,
+                    "date": "23-9-2022",
+                    "applicant": "Lomov",
+                    "assigned": false,
+                    "corporation": null,
+                    "completed": false
+                }
+            ],
+            "assignedEntries": []
+        }
+    },
+    "Victoria": {
+        "password": "Victoria123",
+        "type": "resident",
+        "data": {
+            "myEntries": [
+                {
+                    "title": "Broken glass",
+                    "id": 4,
+                    "location": "56, Marcel Road",
+                    "type": "Non-biodegradable",
+                    "weight": 50,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                },
+                {
+                    "title": "Coconut Husk",
+                    "id": 5,
+                    "location": "56, Marcel Road",
+                    "type": "Biodegradable",
+                    "weight": 20,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "",
+                    "id": 9,
+                    "location": "",
+                    "type": "",
+                    "weight": null,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": false,
+                    "corporation": null,
+                    "completed": false
+                },
+                {
+                    "title": "Bo",
+                    "id": 10,
+                    "location": "bruh",
+                    "type": "b",
+                    "weight": 2,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": false,
+                    "corporation": null,
+                    "completed": false
+                }
+            ],
+            "assignedEntries": []
+        }
+    },
+    "Trashbin.exe": {
+        "password": "Trashbin.exe123",
+        "type": "corporation",
+        "data": {
+            "myEntries": [],
+            "assignedEntries": [
+                {
+                    "title": "Plastic bags",
+                    "id": 2,
+                    "location": "10, Prusci Street",
+                    "type": "Non-biodegradable",
+                    "weight": 45,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                },
+                {
+                    "title": "Broken glass",
+                    "id": 4,
+                    "location": "56, Marcel Road",
+                    "type": "Non-biodegradable",
+                    "weight": 50,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                },
+                {
+                    "title": "Banana",
+                    "id": 11,
+                    "location": "My house",
+                    "type": "Biodegradable",
+                    "weight": 2,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "Trashbin.exe",
+                    "completed": true
+                }
+            ]
+        }
+    },
+    "WasteBox": {
+        "password": "WasteBox123",
+        "type": "corporation",
+        "data": {
+            "myEntries": [],
+            "assignedEntries": [
+                {
+                    "title": "Banana Peels",
+                    "id": 1,
+                    "location": "10, Prusci Street",
+                    "type": "Biodegradable",
+                    "weight": 15,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Pumpkin seeds",
+                    "id": 3,
+                    "location": "10, Prusci Street",
+                    "type": "Biodegradable",
+                    "weight": 20,
+                    "date": "23-9-2022",
+                    "applicant": "Tim",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Coconut Husk",
+                    "id": 5,
+                    "location": "56, Marcel Road",
+                    "type": "Biodegradable",
+                    "weight": 20,
+                    "date": "23-9-2022",
+                    "applicant": "Victoria",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                },
+                {
+                    "title": "Shredded Paper",
+                    "id": 6,
+                    "location": "23, Chekovsky Street",
+                    "type": "Biodegradable",
+                    "weight": 30,
+                    "date": "23-9-2022",
+                    "applicant": "Lomov",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": false
+                },
+                {
+                    "title": "Wood Shavings",
+                    "id": 7,
+                    "location": "23, Chekovsky Street",
+                    "type": "Biodegradable",
+                    "weight": 70,
+                    "date": "23-9-2022",
+                    "applicant": "Lomov",
+                    "assigned": true,
+                    "corporation": "WasteBox",
+                    "completed": true
+                }
+            ]
+        }
+    }
+}
